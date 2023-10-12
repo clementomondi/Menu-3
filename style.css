@@ -1,0 +1,253 @@
+/* Add CSS here */
+body {
+    background-color: #f4f5fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 250px;
+    width: 100%;
+    border-radius: 0.4em;
+    box-shadow: 0 4px 8px rgb(211, 208, 208);
+}
+
+.holder {
+    background-color: #f4f5fb;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards h1 {
+    font-size: 12px;
+}
+
+.main-container {
+    min-width: 500px;
+    height: 300px;
+}
+
+.holder-2 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hild-1 {
+    width: 50%;
+}
+
+.hild-2 {
+    width: 50%;
+}
+
+.hild-1 h1 {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.hild-2 h2 {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.content {
+    height: 210px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto;
+}
+
+.closets {
+    background-color: #ffffff;
+    height: 80px;
+    border-radius: 0.3em;
+    width: 96%;
+    display: flex;
+    transition: .7s;
+}
+
+.closets:hover {
+    background-color: #ffeff3;
+    height: 80px;
+    border-radius: 0.3em;
+    width: 96%;
+    transform: scale(0.96);
+    display: flex;
+    cursor: pointer;
+}
+
+.card-1 {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.sphere {
+    height: 50px;
+    width: 50px;
+    border-radius: 3em;
+    background-color: #e9fbed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-2 {
+    padding: 9px;
+}
+
+.card-2 h1 {
+    font-size: 12px;
+
+}
+
+.card-2 p {
+    font-size: 10px;
+
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #f4f5fb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .container {
+        background-color: #ffffff;
+        height: 600px;
+        width: 100%;
+        border-radius: 0.4em;
+        box-shadow: 0 4px 8px rgb(211, 208, 208);
+    }
+
+    .holder {
+        background-color: #f4f5fb;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .cards {
+        display: flex;
+    }
+
+    .cards h1 {
+        font-size: 12px;
+    }
+
+    .main-container {
+        min-width: 100px;
+        height: 700px;
+    }
+
+    .holder-2 {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .hild-1 {
+        width: 50%;
+    }
+
+    .hild-2 {
+        width: 50%;
+    }
+
+    .hild-1 h1 {
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .hild-2 h2 {
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .content {
+        height: 210px;
+        display: grid;
+        padding: 10px;
+        grid-template-columns: auto auto;
+    }
+
+    .closets {
+        background-color: #ffffff;
+        height: 80px;
+        border-radius: 0.3em;
+        width: 96%;
+        display: flex;
+        transition: .7s;
+    }
+
+    .closets:hover {
+        background-color: #ffeff3;
+        height: 80px;
+        border-radius: 0.3em;
+        width: 96%;
+        transform: scale(0.96);
+        display: flex;
+        cursor: pointer;
+    }
+
+    .card-1 {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+    }
+
+    .sphere {
+        height: 50px;
+        width: 50px;
+        border-radius: 3em;
+        background-color: #e9fbed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2 {
+        padding: 9px;
+    }
+
+    .card-2 h1 {
+        font-size: 12px;
+
+    }
+
+    .card-2 p {
+        font-size: 10px;
+
+    }
+}
